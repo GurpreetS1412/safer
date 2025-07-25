@@ -1,0 +1,548 @@
+[
+  {
+    "productId": "COCA001",
+    "productName": "Coca-Cola Classic",
+    "category": "Beverage",
+    "ingredients": [
+      "Carbonated water",
+      "High fructose corn syrup",
+      "Caramel color",
+      "Phosphoric acid",
+      "Natural flavors",
+      "Caffeine"
+    ],
+    "description": "The world's most popular cola soft drink, containing high fructose corn syrup and artificial flavors.",
+    "image": "https://images.unsplash.com/photo-1624552184280-9e9631bbeee9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29jYSUyMGNvbGF8ZW58MHx8MHx8fDA%3D",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "DOVE001",
+    "productName": "Dove Beauty Bar",
+    "category": "Personal Care",
+    "ingredients": [
+      "Sodium lauroyl isethionate",
+      "Stearic acid",
+      "Sodium tallowate",
+      "Sodium isethionate",
+      "Cocamidopropyl betaine",
+      "Sodium stearate",
+      "Sodium dodecylbenzenesulfonate",
+      "Fragrance"
+    ],
+    "description": "A moisturizing beauty bar soap that contains synthetic detergents and fragrances.",
+    "image": "data:image/jpeg;base64,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",
+    "isOrganic": false,
+    "harmfulChemicals": ["Parabens (Methylparaben)", "Sodium Lauryl Sulfate (SLS)"]
+  },
+  {
+    "productId": "OREO001",
+    "productName": "Oreo Original Cookies",
+    "category": "Food",
+    "ingredients": [
+      "Unbleached enriched flour",
+      "Sugar",
+      "Palm oil",
+      "Cocoa",
+      "High fructose corn syrup",
+      "Leavening",
+      "Salt",
+      "Soy lecithin",
+      "Vanillin",
+      "Chocolate"
+    ],
+    "description": "Popular sandwich cookies containing palm oil, high fructose corn syrup, and artificial vanilla flavoring.",
+    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEBUTEhIWEBIXFRcWEBYWFxUQEBYVFxYYGhkYFhUYHSggGBolIBcYIzEhJSkrLi4uGCAzODMtNyguLiwBCgoKDg0OGhAQGy8lHyYzNSs3Li02LSsrNy8tLSstMC81LS0vLi8rLTUtMi0tLTAvNy0tLS8wLS0vLSstLy0tNf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwMEBQYIAgH/xABCEAACAQIDBAYHBgMHBQEAAAABAgADEQQSIQUTMUEGIlFhgZEUIzJScZKxBxVCU8HRYqHhFjNDcoLS8Bdjg6KyRP/EABkBAQADAQEAAAAAAAAAAAAAAAABBAUDAv/EADIRAAIBAgQDBQcEAwAAAAAAAAABAgMRBCExURIUQQVhgaHwFSIyUpGxwRNCceEjYtH/2gAMAwEAAhEDEQA/AJxiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIBgOnO0q2HwT1qFSnTdCp9YCwYXtkUA+0bi3H9RFtH7Qtom16w4/l0/eOnDhy+ElbprRZ8BiFRFqNuz1W1FgQSQPeAuR3gSC6dL/n+qaeCpwlB8STzKeIlJSyZL3QjpqMX6qsBTxFjltcJUA4lQeDC3DxHO24znuknAqSrq11YGzAg3BBHDlMpW6Z7QICGs17W0srHv0GpirgbyvDJEwxFl7xOE8lx2jznP1Xb+IY+sqO3bd2P8mnxdrdpfwdf2nn2fLcnmlsdBgz7OfhtcdtX5l/aextoe/W+ZZHs97jme4n6JAY22Pfr/ADJPv32vv1/mSOQluOZWxPcSBfvtPfxHzJPv32n5mI+ZI5CW45lbE8xIIG2k/MxHzJPX3yn5mJ+ZJHIS3I5pbE6xIHO1kP48R8yQNrLyfEfMknkJbkc5HYniJBH3yPzMR86zydtf9yv8yxyEtyebjsTzEgQ7c/7lf5lnz79P5lb5l/eOQluTzS2J8iQAdtH36viVP6z6u3GHCpUHy/7o9ny3HMrYn6JBlHpdiV9nEVfG5HlczK4DpnjGSo2+JyKDbKtySbD8B0vbiRxE8SwM1ndHpYiL6EvTQ+mX2grh33OGC1aoNnZrmmp5qACMzduth36gabiuk+NxF6bV2A/xMlqYA9262JP9ZgtqUQqggAG/0E7UcEk7zz7jnUxF1aJsQ+03HAWvRPHU0zf2rcmAkl9Ctq1sVhFrV1pqzE5d2SVZRpcqSchvfq3PDlwHP7i1/GT70BwTUtnUFamtJymZwvMtqGb+MixPfGNpU4QXCrO5OHlJyzZsMREzC2YfpcqnA4gM5pruzdhx05W534W53kGqf1+qmT5t0H0atalvzu3tTPB+qer4zntKmnn9BNTs/wCGRTxOqLtauWqRyP1l61INxAMxWLOsymEe6g90vMrFPF4XNlHK9r8WHZrC7FXmTL/dFgbW6oBJJCqNdLsxAF7dvIzxUdlAJtY8CCrqbcbMpIuOyeOLomTYtxsRO0z6NiJ2nzlQYmPSpN2QefuOn2nzn37ip9p85ebKptXrJSVgpcnU3IFlLHQak2HCZ+lsBUKNWrjduyqgyvSe9RCULhtaY0Oh923Ocp11B2bOkYOWhqy7Ap9p85VTo7T7T5zbRsrC0qKvVrllqABW9k5lKk7sAcxnF9eAninWwAJI3tS1igK1XBZS2huoVlay6EfiPhz5pvRNkSpW+KSXia7T6M0+0+cq/wBmqXf5zJ7xS9TICKe8Y07rkOVtbZeViSPCVM87pzauZlSvGMnEw/8AZ2n3+c+jo9S7/OZfNLPHbRWmco61Q2svYO1tfIcyR2yJ1OBXkyKLlWlwwRZ1dg0VF2NuzU6ywq7No8lbuubX8PKUq2OLIajk8SF7b66Ed9rC3ADWeXxZKBc4dmVXJLZre0W52FrWtx85nTxlSWjsjdo4GEF72bDbMp6XVhzvf9Oc9nYNO1wSQeEoPjCQozBsiZz2gWFlJ8Tp3nul5sZjUqmkntkNuxcWLgEhSL3AOUrewsWHfJpYycX7zuj3VwsWrwyZatsNO0zwdir7xl+cQCoYcCL/AND3jhKDYiaak2rpmennZ6lm2xR730l3gqO6oYjK3X3YI0vwbVjobW1sdNZcCjUKZ8vV5aqCbC+ik3Ogvw4a8JhK+NYGootZwFa4B0HZ2akyM5qyZ7WTzNppY/DPhzlwaUXYLlZGa4I4lr3zX7O/jzmt7a/CO8y+2afUr4/UzHbaPWX/AJzEmEVF5EN3MTWbQ9tj/wDU6I6I00XAYcU3NWnuUyO2jEW7OXZbla3Kc5VW8eGmuvHTTXynTWy1IoUgaYoEU0BpixWmco6gI0sOGnZKnaLyiixhlm2XUREyi4W200LUagWpuSUYCpp1DlPW17OPhObEa3O/HXWx46i+s6Vxyg0nDJvFKMGQalxY3UDv4eM5sUA8FKAk2UkkqM2i3Opte15qdnaS8PyVMTqipUqXmW2WeoPH6zGU8KzKGFj3c5l8DTyqB5y/LQqm2dDSBWHVDtnqMgPDebkbu55exVtLXbmIr18B6Ti6Ho2IFTIwCPSD2KZXyOSRYM63ub+AtZ7OrFayBTYtcDl1gCU+BzZdZsW22TEYR23tfEOKT5XdAmHBDU1dRkVVLBnXXXVDY9UzPmuGqmdeK8WvXQ0TDY1Fpm5s2bW1wSthYA2+NxpxGsymSrluyU8MhuVbEMEfU3JVD1rH/KRLLYFJlWm9MK2KxFbc4PNqlO2r1iOZAvbsyG2pBG+bYTC7HwvpDIcXimYItSqQatSqQT7RB3aWBNlHLmYrqnGel2/XrU9Q/UkrRyS6+v6NMOynJziul73DBcQqg8iH3enxmU2dsBa9QrvXxVbLmch1VbaDR6mZmAOl8ol/0J+0itisYuHrUUAqZt21PN1SqlrMDe4sDrM1tygmG2ngsQgCCs1TDVgNFOdcyNbtzIB4iJVpRfC1Z2y9ZHN0ZSs+LK+eWfm31MZU6P0aDKtRsLQdtEFWs7VGubaBcl9eyXGK2S9GtQpsKK06rmmKgR6pFTKWUFarHKDlIB11+MuftAtRehimw6YmkpyYhCt6mX2kdORKkMcp437eNh02x+GxeHpVaGPpJVW1XD02cAO4N1OUahrj6jnec41Jy4c8n9yJUKa4m1dq3XO3kXu1tnbhlW+LqlgSPRsNhmUWI0ZmpELx5mWOxGapRxWIrPUpJh3qqaNFEoV7U1zE1bAneEclIHgRaptTprgq+HRWq4qm5Cs4w61EqA21Qva1rnt5TXdnbVqU65qbMw2J1B9MGLdqor2sEa+ZmRxqL8wdQbCQo1HF3R0/wKWVjK7H2lTxtOo+GapUekA1XDYjIahQ31o1lFw2htmLC4AIF7zS9o1DTqPaoHzAV6NQ2QPTcDd6cmGZweWYee14bbGIprU9F2RS2e9Qeurs4FFLX1IyKLC5IBIE0bbmMp72nSon0jdYdaSWBfehVNXOunsE1GW492/Kc6yyz8F9yxh+Hj93bN/b8nmnUC0cxZbEk5ic2pNtAEzDh2meKjsrWUht4jF7dZMi2PVJIbNpwNtSBzlhiMaTUKBxfLUJ0qM1wDkFRSOVlIJvqNbAynTBtvd4VBWpkOlyFUJcvqPwAcDqpIPC9bQul3XxPrGQG+ey30zC7ggG3A6cO7zz3QTGbzatAA6GszD4KjtztyH9e3RFrabxrlhfMTcs1VtFHW4gKM/PjxFxN4+x+hu3xO0an9xhKFTxqMtzl7wotw/GJLQehldgbRVNoVl3QxIXE4hadMC59sgZVPE/tL7p1sZaGWtnVXqsSaCgAILX6pB1AOhNhqZgvstxzq2LxbKXqLS6osTetiahawt8BfnY99zjtqYqpUqM9Vi1QnrFuN+y3K3Zymhgoyk7rReZm4pxjJrq8zfcTVJp2U1AvqiyuVGHprSrJc0wNS7GqhN7dUML6ASOMQOu1+0/WSdSxJbZ6qayUw9EkUlp5sTVZr5BnJOma/AXAF7gaiOttJbE1R/GWHwfrgeTCdsJk2jlUd2v4Mps7+5Xx+pmL203XHw+pmVwA9Snw/UzD7a9vwH1MtR+I5mHtmYLmCBiqlmNkW5tmY8gOJPdOo8MhCKCxqEKAWNrsQPaNtNeOk5gwaA1qYamawNRAaQ0aoMwugPa3DxnUSKAAALACwHAAdmkze0NUXcPoeoiJnlg+Hhp+85vxiuK9QVGD1N7U3rL7LPvTmI7ibmdG4ioqozObKqksexQLk6d05qzoXO7vuszbrN7eTeHJm77WvNLs7WXgVcT0Mps4erXx+pl/REstmD1a+P1MyNPSX5alQpDE5a6ka5Bn8iD+k26hiafoy06leoS16VKkCqUBunr5NOLk7gg6m+ZNLWmgUKt2q1O428T/SbRsrHIlDOaqqhzGsGpmo1UNSphAlX2aeWoKjsosxccDm1rYmLsrHSla+ZhcDjDSpYPFKpqeiV3FZRqcjhixH+mrf8A0seAMkzaeI2ZtXC5HroUuHUhxTq03HOx4HUixFtTIawm0KtFy9K1m0qU21puAbgG1iCOTAgjtlxiNpYSrrV2ec38FRQnh1Bp8byK2HcpXz8D1Co4LLQ3/ZX3Lsli6Yg4nEEZVsRia9j+FEpgBb9pA+MxPSjapxRp1sTUGAS98DTJJq3BDGq2VW1uq9ijQXJvMRgqNddMLs5cNwvUqgOwB59ZUTT+INPNfA0Q5fE44Vap9rIGxDG3AF/ZXn1eA0t3eadJKV27v6+SPNWTmraLu9f9LyntSmWzNiK+OfsJqLRJHDrVbZR3qhlfCNm9jCqLkAlnNQXY2F8iINT2mY/D7XoJY08OM9hdqjNUUG2tk4WvfjeV221VcWLZV5KgFNR3AKOEtxg9F97eSMjERSd7X8Lv6yM6mErg2YpR+C0lt8CQX/nKXSasBsuqC+8qb5adN7lzeottM3u3Yj4CU+i+1TSxKtlz5uob8QGIu1+0Wv5zKfans8HAuKYystZazW4lu0+NpQx1T9P3H16r1cu9m0/1ffu7J2aflsvIhzHOXw4zdSwa3tM5ALBVOvsnqkdtieQvWpgkWBYHKpp0AoqmnmLKRmdGIUWD3AtY87z5SdTVBDEq6MaSqt2o1hnAVgouArVWANjxU6yrSdVNSpVBpMd2aWdCpy5HQrUJF8pLAM3A3Ava4mcb562dhVqU66f4e8Cq+VaTOACzCw06qqXB4m63IAIli1UkZFF6ZeocMnPISyMzMNd3feWW92bTlrWfCH1qJUu9RiamXWhmDBQilheob1gtxYdcX7ZaUqRq1aeGoDMarBEIBykVHvcqPZTUPlHsMrdslElzT6PYqvSpvQQVaL1/R6RDgl6pW5crxC2XiRcBQOU277RcTT2fs6jsei2ZyBVx7DnrmsezM1jbkEHbN22jsvCbFwL4nC4YVK9Onl3jXaqxdlUu7HgL2JtwA7JG/wBnHRyptHGticSS9NX3tZmuDUqX0AItpcHgdMoFrQpK1yNTeeg4XZWyBWqi9eud4E4E3Hq17lCi57Lm3G00TaGKarUeo5uzsWbkLk3NhNr+0zHM2KVLEU0QZOQJOrEf+o/0zSyZsYGko0+PqzLxE3Oo10RKHQraxXBqWrU8LRQKrVHXNULsxRVUk2A6l+B4zSul2zDQrWLBgAqBhbKwylqbr3MoOnI02GosTfdFsXh3pNhsSGNNmUjIbVVKMWR0H4iCzhgASQy2BAa1Pp1jaTVFSipVVWhRpK2jilQFb1hB1W5qBAGsT1jyniKcK7svXq5Nk4Lf1/R8oC1NB/CPpMNtUdfwX6zN1NNJg9qHr+C/WXI6nE89HaTnG4cU3FOpvaeRj7IObn29lud7c50jOadnVqSV6b1gxpK6NUC6PlVrm3/L/CdKU3DAMDcEAg9oPCZ3aK96LLeF0Z6iImcWijjXIpOVTeMEYqnvkA2Xx4eM5kw7cDYLrewvYXLGwvrYTo3pTUC4LEE1dxai9qg0KnKbEd97d85tpN9P0P7zT7OXxMq4nobLsv8Aul8fqZdYi+RrcbSz2a3q1+EuXrgDUy89SoY6omShY+0x1+Ex9pc4/E53AvlFtLymMMx4ETostRcy3R3o1UxYbdsAVPC1yRYXOpA5jzl/tLoNXoUmquwCqrNwGuVWa11Y62UzK/Z3Q9XiFZzTDo6B1DMVLKljZfgfKZGtsrcbOrUhV3rNvWsEdKajcVF/EOJJH8pl1cVVjX4Fpdbdx7tpl43/AARvisbVqf3js4vexPVudScvC/fKEufQKnd5z6NnVO7zmorLQ8FurSvTrT2NmVO7zn0bLq93nHEjxKCZnuhlcHG0kbVXzKfFGt43AkobT2eai5SA4KlWHDMp7R29/wBJEnRzB1aeMw76WFanf4FgD/ImTdMXtOKc0+78l7Ax4INd5CfSfoBVpVN5SVmS97oH3i297JrfvGnHhNe+6XJsaVV3IddUepVCtYCxa5BAJI5Xy9hI6MuZ8J+EoqTRduQLhOh+KqAtWZMBQNy9TEMEsGzXyobNpcDXLoqkWK3m3/Z79108WcPgb4ysEZ8Ti2HVABAyq3ezD2e+5Jki1KKHUopPeAYuBwAHwsIc8iNSniGQgqwDgghlIDAg8QRzEsMDg0pJu6FFKFIEkKiimtzqeqJfPWMtXZiZxZ6NT6c7Fq4l6YpKLIrNWqG9hmKqigC5JOU6AcuU8f2T2UaQtiahcWLVFOa9zb2cpUAnQEeZmax/SJMPWalUDCkyoC6BXZagJYqytoVZWW3P2viMZs7pVRFYqLuWGRGr5KWHGly7tmZlGh0tz1Os1aLrqlFR0WeRTn+nxNy1NW2/0YSjVUUa+8Q3IDq+8BUZmHq0IbTW+nGYrH7OdKhOjDMCbXDKGbQsrAMASbXta5AvczZ9ovjK2LWpUp06QpuU3VN9y5BVQWzHWxUoL6aW0Eots1zUTEVHFt3ZwGL3XIdLkcLX/kOMvQqySXE+hwcU9EWVc6zBbU9vwH1mZqtMPtYcD3W+ssQOJYoxDKQochgQpGZWIb2So4g8Lc7zprDMxRS6hHKguoOYK1tQDzsec5fr8Dz0M6X2FVRsNSNOrv03ahal7l7ADMf4tNe+8o9orKL/AJLWG1ZfRETLLZrn2iOw2ZictLfXpkML2yqTq/flHWt/DOeQf1+k6K6d7LqYnAVaNJc1RsuQZ90LhgeseY09nn3cRCT9Ctoi49Dq6aaBSONtCDrqPLXhrNLBVIxi02V60W2UMDirIb8Ba3yibjsfoJi8RS3rZaNxemtS+Yj4AdUHtOvdbWZLoJ9nTo618aoGU5qdC4frcmqkXGnJQT2nskoRiMZnan9TzTodZEA7V6K4umxDYeobc1U1F8GW4mGfZ9ReKMvgVnS8Tyu0JrVB4WO5zGaJ7/MwKR7f5zpooOwTyaK+6PIT17Rfykcqtzmmze8fMz71/ePmZ0r6OnuL5CeThKfuL8o/aPaL+Ucr3nNt395vMxmqe83mZ0j6HT/LT5R+0eh0/wAtPlX9o9of6jle85yoVqqsrBjdWDDU2uDcfSbf/wBRsX+VR8qn++S96HT/AC0+Vf2j0On+Wnyr+051MXCp8ULnqNCUdJEQf9RcX+VR8qn++XuF6d1WAzmlTbXMMlVhx0sc4HDvkpeh0/y0+Vf2j0On+Wnyr+04yq0n+w6KE1+4i+r03YcHpk6f4dXKLtrqHOaw15T43TTU+sS19PVVeF+fW42vyko+h0/y0+Vf2j0On+Wnyj9p54qXy+voTwz3Iobpi1vbTVQR6uobG5upGfS1h5zxW6ZMEuhR3vopSooIv25vHjJcXDIOCKPAT2EA4ADwjipfJ6+g4Z/Mc+YzHV61epWI1qZc6gFqRCqFHVa/u8eIubT4tKof/wAyH/xsf1nQtp9lnnrKyicuX7yA6ey8RUN/Qg57dy7HzmQodFceRZMNulOpARaStbhmvqfE6SbInl46XRIlYdbkC7UwFfDMFxFJqRPsk2KN/lYaH4cZh9ptdPGdEbS2fSr0mpVkFRG4g/yIPEEciNRIk6U/ZxiqZPoo9KpE9UXVay9zBiA3xHkJaoYyMsp5PyOVSg1oR+x4+P6ToH7O62bZmGIpmkAmUC982UkZx3NbNr2yHv7BbTtf0R7cPbpX17s9/GTH0A2XVw2Ap0aylKilswz70dZidCNANeA4a/Gc8bUjOCSfU6UIOLNiiImYWRERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQD//Z",
+    "isOrganic": false,
+    "harmfulChemicals": ["Butylated Hydroxytoluene (BHT)"]
+  },
+  {
+    "productId": "LOREAL001",
+    "productName": "L'Oréal Paris Elvive Shampoo",
+    "category": "Personal Care",
+    "ingredients": [
+      "Aqua/Water",
+      "Sodium laureth sulfate",
+      "Coco-betaine",
+      "Glycol distearate",
+      "Sodium chloride",
+      "Parfum/Fragrance",
+      "Sodium benzoate",
+      "Hydroxypropyl guar hydroxypropyltrimonium chloride",
+      "Citric acid"
+    ],
+    "description": "Popular shampoo containing sulfates and synthetic fragrances that may cause scalp irritation in sensitive individuals.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Sodium Benzoate", "Parabens (Methylparaben)", "Sodium Lauryl Sulfate (SLS)"]
+  },
+  {
+    "productId": "WHOLE001",
+    "productName": "365 Organic Whole Milk",
+    "category": "Food",
+    "ingredients": ["Organic Grade A milk", "Vitamin D3"],
+    "description": "USDA certified organic whole milk from Whole Foods Market's 365 brand, free from synthetic hormones and antibiotics.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": true,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "DRBRN001",
+    "productName": "Dr. Bronner's Pure-Castile Soap",
+    "category": "Personal Care",
+    "ingredients": [
+      "Organic coconut oil",
+      "Potassium hydroxide",
+      "Organic palm kernel oil",
+      "Organic olive oil",
+      "Organic hemp seed oil",
+      "Organic jojoba oil",
+      "Organic peppermint oil",
+      "Citric acid",
+      "Tocopherol"
+    ],
+    "description": "Organic, biodegradable soap made with certified fair trade and organic oils. Free from synthetic preservatives and detergents.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": true,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "KRAFT001",
+    "productName": "Kraft Macaroni & Cheese",
+    "category": "Food",
+    "ingredients": [
+      "Enriched macaroni",
+      "Cheese sauce mix (whey",
+      "milkfat",
+      "milk protein concentrate",
+      "salt",
+      "sodium tripolyphosphate",
+      "citric acid",
+      "lactic acid",
+      "sodium phosphate",
+      "calcium phosphate",
+      "yellow 5",
+      "yellow 6",
+      "enzymes)"
+    ],
+    "description": "Popular boxed macaroni and cheese containing artificial colors (Yellow 5 and Yellow 6) and multiple preservatives.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Artificial Food Coloring (Red Dye #40)"]
+  },
+  {
+    "productId": "BURTS001",
+    "productName": "Burt's Bees Lip Balm",
+    "category": "Personal Care",
+    "ingredients": [
+      "Cera alba (beeswax)",
+      "Cocos nucifera (coconut) oil",
+      "Helianthus annuus (sunflower) seed oil",
+      "Mentha piperita (peppermint) oil",
+      "Lanolin",
+      "Tocopherol",
+      "Rosmarinus officinalis (rosemary) leaf extract",
+      "Glycine soja (soybean) oil",
+      "Candelilla cera",
+      "Limnanthes alba (meadowfoam) seed oil"
+    ],
+    "description": "Natural lip balm made with beeswax and natural oils. Contains minimal synthetic ingredients compared to conventional lip balms.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "PEPSI001",
+    "productName": "Pepsi Cola",
+    "category": "Beverage",
+    "ingredients": [
+      "Carbonated water",
+      "High fructose corn syrup",
+      "Caramel color",
+      "Sugar",
+      "Phosphoric acid",
+      "Caffeine",
+      "Citric acid",
+      "Natural flavor"
+    ],
+    "description": "Popular cola soft drink containing high fructose corn syrup, caramel coloring, and artificial flavors.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "ANNIES001",
+    "productName": "Annie's Organic Bunny Fruit Snacks",
+    "category": "Food",
+    "ingredients": [
+      "Organic tapioca syrup",
+      "Organic cane sugar",
+      "Organic tapioca starch",
+      "Organic apple juice concentrate",
+      "Pectin",
+      "Citric acid",
+      "Ascorbic acid",
+      "Organic natural flavors",
+      "Organic colors (organic black carrot juice",
+      "organic turmeric",
+      "organic annatto)"
+    ],
+    "description": "USDA certified organic fruit snacks made with organic ingredients and natural colors instead of artificial dyes.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": true,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "PARLE001",
+    "productName": "Parle-G Biscuits",
+    "category": "Food",
+    "ingredients": [
+      "Wheat flour",
+      "Sugar",
+      "Edible vegetable oil",
+      "Invert syrup",
+      "Salt",
+      "Leavening agents",
+      "Milk solids",
+      "Flavoring agents"
+    ],
+    "description": "Iconic glucose biscuits loved across India, made with wheat flour, sugar, and flavoring agents.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "PATJ001",
+    "productName": "Patanjali Aloe Vera Juice",
+    "category": "Health & Wellness",
+    "ingredients": [
+      "Aloe vera pulp",
+      "Citric acid",
+      "Sodium benzoate",
+      "Potassium sorbate"
+    ],
+    "description": "Ayurvedic health drink containing aloe vera pulp and preservatives like sodium benzoate.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Sodium Benzoate", "Potassium Sorbate"]
+  },
+  {
+    "productId": "MAGGI001",
+    "productName": "Maggi 2-Minute Noodles",
+    "category": "Food",
+    "ingredients": [
+      "Wheat flour",
+      "Palm oil",
+      "Salt",
+      "Spices",
+      "Hydrolyzed protein",
+      "Flavor enhancers (E635)",
+      "Preservatives"
+    ],
+    "description": "Quick-cooking instant noodles with added flavors and preservatives.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Flavor Enhancer E635"]
+  },
+  {
+    "productId": "AMUL001",
+    "productName": "Amul Butter",
+    "category": "Food",
+    "ingredients": [
+      "Pasteurized butter",
+      "Salt"
+    ],
+    "description": "Classic Indian dairy product made from pasteurized cream and salt.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "DABUR001",
+    "productName": "Dabur Chyawanprash",
+    "category": "Health & Wellness",
+    "ingredients": [
+      "Amla pulp",
+      "Honey",
+      "Ghee",
+      "Sesame oil",
+      "Various Ayurvedic herbs"
+    ],
+    "description": "Ayurvedic health supplement known for immunity boosting, made with over 40 herbal ingredients.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": true,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "CLINIC001",
+    "productName": "Clinic Plus Shampoo",
+    "category": "Personal Care",
+    "ingredients": [
+      "Sodium laureth sulfate",
+      "Cocamide MEA",
+      "Dimethiconol",
+      "Fragrance",
+      "Citric acid",
+      "Preservatives"
+    ],
+    "description": "Widely-used shampoo that contains common cleansing agents and synthetic fragrance.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Sodium Laureth Sulfate", "Fragrance"]
+  },
+  {
+    "productId": "COLGATE001",
+    "productName": "Colgate Total Toothpaste",
+    "category": "Personal Care",
+    "ingredients": [
+      "Sodium fluoride",
+      "Triclosan",
+      "Silica",
+      "Sodium lauryl sulfate",
+      "Flavoring",
+      "Sorbitol"
+    ],
+    "description": "Popular toothpaste with fluoride for cavity protection and Triclosan for antibacterial action.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Triclosan", "Sodium Lauryl Sulfate"]
+  },
+  {
+    "productId": "FAIRL001",
+    "productName": "Fair & Lovely Cream",
+    "category": "Personal Care",
+    "ingredients": [
+      "Niacinamide",
+      "Vitamin C",
+      "Mineral oil",
+      "Stearic acid",
+      "Preservatives",
+      "Fragrance"
+    ],
+    "description": "Skin lightening cream containing active vitamins and synthetic preservatives.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Mineral Oil", "Fragrance"]
+  },
+  {
+    "productId": "SURF001",
+    "productName": "Surf Excel Detergent Powder",
+    "category": "Home Essentials",
+    "ingredients": [
+      "Sodium carbonate",
+      "Sodium laureth sulfate",
+      "Enzymes",
+      "Fragrance",
+      "Optical brighteners"
+    ],
+    "description": "Powerful cleaning detergent with enzymes and synthetic surfactants.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Optical Brighteners", "Fragrance"]
+  },
+  {
+    "productId": "TATA001",
+    "productName": "Tata Tea Premium",
+    "category": "Food & Beverages",
+    "ingredients": ["Black tea leaves"],
+    "description": "Popular Indian tea brand with strong flavor, made from Assam tea leaves.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "VIM001",
+    "productName": "Vim Dishwash Bar",
+    "category": "Home Essentials",
+    "ingredients": [
+      "Sodium carbonate",
+      "Surfactants",
+      "Lemon fragrance",
+      "Coloring agents"
+    ],
+    "description": "Dishwashing soap containing surfactants and synthetic lemon fragrance.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Surfactants", "Fragrance"]
+  },
+  {
+    "productId": "SAFFOLA001",
+    "productName": "Saffola Oats",
+    "category": "Food",
+    "ingredients": ["Whole oats"],
+    "description": "Healthy breakfast option made from whole oats, high in dietary fiber.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": true,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "BOURN001",
+    "productName": "Bournvita Health Drink",
+    "category": "Health & Wellness",
+    "ingredients": [
+      "Malt extract",
+      "Sugar",
+      "Cocoa solids",
+      "Milk solids",
+      "Vitamins",
+      "Minerals",
+      "Artificial flavor"
+    ],
+    "description": "Chocolate-flavored health drink with added vitamins and minerals, commonly consumed with milk.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Artificial Flavor"]
+  },
+  {
+    "productId": "HALDIR001",
+    "productName": "Haldiram’s Bhujia",
+    "category": "Food",
+    "ingredients": [
+      "Gram flour",
+      "Edible vegetable oil",
+      "Salt",
+      "Spices",
+      "Preservatives"
+    ],
+    "description": "Spicy Indian snack made from gram flour and traditional spices.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Preservatives"]
+  },
+  {
+    "productId": "LIMCA001",
+    "productName": "Limca",
+    "category": "Beverage",
+    "ingredients": [
+      "Carbonated water",
+      "Sugar",
+      "Acidity regulators",
+      "Natural flavoring substances"
+    ],
+    "description": "Popular lemon-lime flavored soft drink from Coca-Cola India.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "FROOTI001",
+    "productName": "Frooti Mango Drink",
+    "category": "Beverage",
+    "ingredients": [
+      "Water",
+      "Mango pulp",
+      "Sugar",
+      "Acidity regulators",
+      "Preservatives"
+    ],
+    "description": "Ready-to-drink mango beverage made with mango pulp and added sugar.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": ["Preservatives"]
+  },
+  {
+    "productId": "MDH001",
+    "productName": "MDH Masala",
+    "category": "Food",
+    "ingredients": ["Varies by blend (e.g., coriander, cumin, chili, turmeric)"],
+    "description": "Popular Indian spice blends used in cooking, available in varieties like Garam Masala, Chana Masala, etc.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "EVEREST001",
+    "productName": "Everest Turmeric Powder",
+    "category": "Food",
+    "ingredients": ["Turmeric"],
+    "description": "Widely used Indian spice made from ground turmeric root, known for its color and health benefits.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "FORTUNE001",
+    "productName": "Fortune Rice Bran Oil",
+    "category": "Food",
+    "ingredients": ["Rice bran oil"],
+    "description": "Cooking oil extracted from rice bran, known for its heart health benefits and high smoke point.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "AASHIRVAAD001",
+    "productName": "Aashirvaad Atta",
+    "category": "Food",
+    "ingredients": ["Whole wheat flour"],
+    "description": "Popular Indian brand of whole wheat flour used for making chapatis and other breads.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "TATASALT001",
+    "productName": "Tata Salt",
+    "category": "Food",
+    "ingredients": ["Iodized salt"],
+    "description": "India’s leading brand of iodized salt, known for purity and health benefits.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "NESCAFE001",
+    "productName": "Nescafé Classic Coffee",
+    "category": "Beverage",
+    "ingredients": ["100% coffee"],
+    "description": "Instant coffee made from roasted coffee beans, known for its rich aroma and taste.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": false,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "DABURHONEY001",
+    "productName": "Dabur Honey",
+    "category": "Food",
+    "ingredients": ["Pure honey"],
+    "description": "Natural honey from Dabur, used as a sweetener and health supplement.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": true,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "DANTKANTI001",
+    "productName": "Patanjali Dant Kanti Toothpaste",
+    "category": "Personal Care",
+    "ingredients": [
+      "Neem",
+      "Babool",
+      "Tomar",
+      "Pudina",
+      "Akarkara",
+      "Clove oil",
+      "Base materials"
+    ],
+    "description": "Ayurvedic toothpaste from Patanjali with herbal ingredients for oral hygiene.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": true,
+    "harmfulChemicals": []
+  },
+  {
+    "productId": "MEDIMIX001",
+    "productName": "Medimix Soap",
+    "category": "Personal Care",
+    "ingredients": [
+      "18 Ayurvedic herbs",
+      "Natural oils",
+      "Glycerin"
+    ],
+    "description": "Ayurvedic soap made with herbal extracts, known for skin benefits and natural fragrance.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/320px-Flower_poster_2.jpg",
+    "isOrganic": true,
+    "harmfulChemicals": []
+  }
+]
+  
+
+

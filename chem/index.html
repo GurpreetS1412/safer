@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChemTracker - Products</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>Safe Choices</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Chemicals</a>
+                <a href="products.html" class="nav-link active">Products</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-sun theme-icon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <header class="page-header">
+                <h2>Products Database</h2>
+                <p>Track real-world products and their ingredients</p>
+            </header>
+
+            <div class="controls">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search products..." class="search-input">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                
+                <div class="control-group">
+                    <select id="sortSelect" class="sort-select">
+                        <option value="productName">Sort by Name</option>
+                        <option value="category">Sort by Category</option>
+                    </select>
+                    
+                    <button class="add-btn" id="addProductBtn">
+                        <i class="fas fa-plus add-icon"></i>
+                        Add Product
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid" id="productsGrid">
+                
+            </div>
+
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <i class="fas fa-box empty-icon"></i>
+                <h3>No products found</h3>
+                <p>Add some products to get started</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal" id="addModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Add New Product</h3>
+                <button class="close-btn" id="closeModal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Paste JSON data for the new product:</p>
+                <textarea id="jsonInput" placeholder='{"productId": "PROD001", "productName": "Product Name", "category": "Food", "ingredients": ["ingredient1", "ingredient2"], "description": "Description...", "image": "https://...", "isOrganic": true}'></textarea>
+                <div class="modal-actions">
+                    <button class="btn-secondary" id="cancelBtn">Cancel</button>
+                    <button class="btn-primary" id="addBtn">Add Product</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <template id="productCardTemplate">
+        <div class="card product-card">
+            <div class="card-image">
+                <img src="https://via.placeholder.com/300x200?text=No+Image" alt="" class="product-image">
+            </div>
+            <div class="card-content">
+                <div class="card-header">
+                    <h3 class="product-name"></h3>
+                    <span class="product-category"></span>
+                </div>
+                <div class="product-id">
+                    <span class="id-label">ID:</span>
+                    <span class="product-id-value"></span>
+                </div>
+                <div class="organic-status">
+                    <span class="status-label">Organic:</span>
+                    <span class="status-toggle"></span>
+                </div>
+                <p class="product-description"></p>
+                <div class="product-details">
+                    <div class="detail-item">
+                        <strong>Ingredients:</strong>
+                        <span class="ingredients-list"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script type="module" src="js/products.js"></script>
+</body>
+</html>

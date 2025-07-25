@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChemTracker - Harmful Chemicals</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>Safe Choices</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link active">Chemicals</a>
+                <a href="products.html" class="nav-link">Products</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-sun theme-icon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <header class="page-header">
+                <h2>Harmful Chemicals Database</h2>
+                <p>Track and monitor potentially harmful chemicals in food and cosmetics</p>
+            </header>
+
+            <div class="controls">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search chemicals..." class="search-input">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                
+                <div class="control-group">
+                    <select id="sortSelect" class="sort-select">
+                        <option value="name">Sort by Name</option>
+                        <option value="type">Sort by Type</option>
+                    </select>
+                    
+                    <button class="add-btn" id="addChemicalBtn">
+                        <i class="fas fa-plus add-icon"></i>
+                        Add Chemical
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid" id="chemicalsGrid">
+                
+            </div>
+
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <i class="fas fa-flask empty-icon"></i>
+                <h3>No chemicals found</h3>
+                <p>Add some chemicals to get started</p>
+            </div>
+        </div>
+    </main>
+
+    
+    <div class="modal" id="addModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Add New Chemical</h3>
+                <button class="close-btn" id="closeModal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Paste JSON data for the new chemical:</p>
+                <textarea id="jsonInput" placeholder='{"name": "Chemical Name", "type": "preservative", "commonUses": "Used in...", "description": "Description...", "image": "https://...", "preservative": true, "regulatoryStatus": "Approved"}'></textarea>
+                <div class="modal-actions">
+                    <button class="btn-secondary" id="cancelBtn">Cancel</button>
+                    <button class="btn-primary" id="addBtn">Add Chemical</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <template id="chemicalCardTemplate">
+        <div class="card chemical-card">
+            <div class="card-image">
+                <img src="https://via.placeholder.com/300x200?text=No+Image" alt="" class="chemical-image">
+            </div>
+            <div class="card-content">
+                <div class="card-header">
+                    <h3 class="chemical-name"></h3>
+                    <span class="chemical-type"></span>
+                </div>
+                <div class="preservative-status">
+                    <span class="status-label">Preservative:</span>
+                    <span class="status-toggle"></span>
+                </div>
+                <p class="chemical-description"></p>
+                <div class="chemical-details">
+                    <div class="detail-item">
+                        <strong>Common Uses:</strong>
+                        <span class="common-uses"></span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Regulatory Status:</strong>
+                        <span class="regulatory-status"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script type="module" src="js/chemicals.js"></script>
+</body>
+</html>
